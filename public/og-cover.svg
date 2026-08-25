@@ -20,7 +20,7 @@
   </g>
   <text x="90" y="260" font-family="Manrope, Arial, sans-serif" font-weight="800" font-size="64" fill="#f4f2ec">Future 3D</text>
   <text x="90" y="330" font-family="Manrope, Arial, sans-serif" font-weight="700" font-size="40" fill="#a6b892" letter-spacing="4">CONSTRUCTION</text>
-  <text x="90" y="410" font-family="Inter, Arial, sans-serif" font-weight="500" font-size="30" fill="#c7cdc3">Будущее строительства уже сегодня</text>
+  <text x="90" y="410" font-family="Inter, Arial, sans-serif" font-weight="500" font-size="30" fill="#c7cdc3">Майбутнє будівництва вже сьогодні</text>
   <g transform="translate(760,120)" opacity="0.9">
     <rect x="0" y="0" width="340" height="380" rx="18" fill="#171d19" stroke="#2b332e"/>
     <circle cx="170" cy="150" r="90" fill="none" stroke="url(#accent)" stroke-width="3" opacity="0.6"/>

@@ -62,14 +62,14 @@ export default function Hero() {
       <div className="relative mx-auto grid max-w-container gap-12 px-5 sm:px-8 lg:grid-cols-2 lg:items-center lg:gap-10 lg:px-10">
         <div>
           <h1 className="text-display-lg font-heading font-extrabold text-sand">
-            <span className="hero-line block">Будущее</span>
-            <span className="hero-line block">строительства</span>
-            <span className="hero-line block text-sage-400">уже сегодня</span>
+            <span className="hero-line block">Майбутнє</span>
+            <span className="hero-line block">будівництва</span>
+            <span className="hero-line block text-sage-400">вже сьогодні</span>
           </h1>
 
           <p className="hero-sub mt-6 max-w-md text-base text-sand/60 sm:text-lg">
-            Мы строим дома с помощью 3D-печати — быстро, надёжно и доступно.
-            Технологии, которые меняют будущее.
+            Ми будуємо будинки за допомогою 3D-друку — швидко, надійно та
+            доступно. Технології, які змінюють майбутнє.
           </p>
 
           <div className="hero-form mt-8 max-w-md">
@@ -92,8 +92,8 @@ export default function Hero() {
               <Boxes className="h-5 w-5" aria-hidden="true" />
             </div>
             <div>
-              <p className="text-sm font-semibold text-sand">3D-печать домов</p>
-              <p className="text-xs text-sand/55">Точность. Скорость. Надёжность.</p>
+              <p className="text-sm font-semibold text-sand">3D-друк будинків</p>
+              <p className="text-xs text-sand/55">Точність. Швидкість. Надійність.</p>
             </div>
           </div>
         </div>

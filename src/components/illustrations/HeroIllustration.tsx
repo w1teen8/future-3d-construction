@@ -5,7 +5,7 @@
  */
 export default function HeroIllustration() {
   return (
-    <svg viewBox="0 0 900 720" className="h-full w-full" role="img" aria-label="3D-принтер печатает жилой дом на фоне вечернего пейзажа">
+    <svg viewBox="0 0 900 720" className="h-full w-full" role="img" aria-label="3D-принтер друкує житловий будинок на тлі вечірнього пейзажу">
       <defs>
         <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
           <stop offset="0%" stopColor="#2a332c" />

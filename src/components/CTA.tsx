@@ -34,7 +34,7 @@ export default function CTA() {
 
         <div className="flex-1">
           <h2 className="text-2xl font-heading font-extrabold text-sand sm:text-3xl">
-            Хотите узнать больше о технологии 3D-печати?
+            Хочете дізнатися більше про технологію 3D-друку?
           </h2>
         </div>
 

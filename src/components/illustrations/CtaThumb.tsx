@@ -1,7 +1,7 @@
 /** Small architectural-visualisation-style thumbnail used in the CTA band. */
 export default function CtaThumb() {
   return (
-    <svg viewBox="0 0 400 400" className="h-full w-full" role="img" aria-label="Архитектурная визуализация напечатанного дома в окружении зелени">
+    <svg viewBox="0 0 400 400" className="h-full w-full" role="img" aria-label="Архітектурна візуалізація надрукованого будинку серед зелені">
       <defs>
         <linearGradient id="ctaSky" x1="0" y1="0" x2="0" y2="1">
           <stop offset="0%" stopColor="#3a4536" />

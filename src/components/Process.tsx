@@ -6,23 +6,23 @@ import { gsap, prefersReducedMotion } from '../lib/motion'
 const STEPS = [
   {
     icon: MessageCircle,
-    title: 'Консультация',
-    description: 'Обсуждаем ваш проект и пожелания.',
+    title: 'Консультація',
+    description: 'Обговорюємо ваш проєкт і побажання.',
   },
   {
     icon: PencilRuler,
-    title: 'Проектирование',
-    description: 'Создаём 3D-модель вашего будущего дома.',
+    title: 'Проєктування',
+    description: 'Створюємо 3D-модель вашого майбутнього будинку.',
   },
   {
     icon: Printer,
-    title: '3D-печать',
-    description: 'Печатаем дом на строительном принтере.',
+    title: '3D-друк',
+    description: 'Друкуємо будинок на будівельному принтері.',
   },
   {
     icon: Home,
-    title: 'Готовый дом',
-    description: 'Вы получаете качественный и современный дом.',
+    title: 'Готовий будинок',
+    description: 'Ви отримуєте якісний і сучасний будинок.',
   },
 ]
 
@@ -77,8 +77,8 @@ export default function Process() {
 
       <div className="relative mx-auto max-w-container px-5 sm:px-8 lg:px-10">
         <div className="process-heading max-w-xl">
-          <p className="eyebrow">Как мы работаем</p>
-          <h2 className="mt-4 text-display-md font-heading font-extrabold text-sand">От идеи до дома</h2>
+          <p className="eyebrow">Як ми працюємо</p>
+          <h2 className="mt-4 text-display-md font-heading font-extrabold text-sand">Від ідеї до будинку</h2>
         </div>
 
         {/* Desktop / tablet: horizontal timeline */}

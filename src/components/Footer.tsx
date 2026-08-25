@@ -1,10 +1,10 @@
 import { Phone, Mail, MapPin, Send, Instagram, Youtube } from 'lucide-react'
 
 const NAV_LINKS = [
-  { href: '#tech', label: 'Технологии' },
-  { href: '#benefits', label: 'Преимущества' },
-  { href: '#about', label: 'О компании' },
-  { href: '#contacts', label: 'Контакты' },
+  { href: '#tech', label: 'Технології' },
+  { href: '#benefits', label: 'Переваги' },
+  { href: '#about', label: 'Про компанію' },
+  { href: '#contacts', label: 'Контакти' },
 ]
 
 const SOCIALS = [
@@ -31,12 +31,12 @@ export default function Footer() {
               </span>
             </a>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-sand/50">
-              Строим дома будущего с помощью 3D-печати — быстро, надёжно и доступно.
+              Будуємо будинки майбутнього за допомогою 3D-друку — швидко, надійно та доступно.
             </p>
           </div>
 
           <div>
-            <h3 className="text-sm font-semibold text-sand">Навигация</h3>
+            <h3 className="text-sm font-semibold text-sand">Навігація</h3>
             <ul className="mt-4 space-y-3">
               {NAV_LINKS.map((link) => (
                 <li key={link.href}>
@@ -49,29 +49,29 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="text-sm font-semibold text-sand">Контакты</h3>
+            <h3 className="text-sm font-semibold text-sand">Контакти</h3>
             <ul className="mt-4 space-y-3 text-sm text-sand/55">
               <li>
-                <a href="tel:+79991234567" className="flex items-center gap-2.5 transition-colors hover:text-sand">
+                <a href="tel:+380631234567" className="flex items-center gap-2.5 transition-colors hover:text-sand">
                   <Phone className="h-4 w-4 shrink-0 text-sage-400" aria-hidden="true" />
-                  +7 (999) 123-45-67
+                  +380 (63) 123-45-67
                 </a>
               </li>
               <li>
-                <a href="mailto:info@future3d.ru" className="flex items-center gap-2.5 transition-colors hover:text-sand">
+                <a href="mailto:info@future3d.ua" className="flex items-center gap-2.5 transition-colors hover:text-sand">
                   <Mail className="h-4 w-4 shrink-0 text-sage-400" aria-hidden="true" />
-                  info@future3d.ru
+                  info@future3d.ua
                 </a>
               </li>
               <li className="flex items-center gap-2.5">
                 <MapPin className="h-4 w-4 shrink-0 text-sage-400" aria-hidden="true" />
-                Россия, Москва
+                Україна, Київ
               </li>
             </ul>
           </div>
 
           <div>
-            <h3 className="text-sm font-semibold text-sand">Мы в соцсетях</h3>
+            <h3 className="text-sm font-semibold text-sand">Ми в соцмережах</h3>
             <div className="mt-4 flex gap-3">
               {SOCIALS.map(({ icon: Icon, label, href }) => (
                 <a
@@ -91,7 +91,7 @@ export default function Footer() {
 
         <div className="mt-14 flex flex-col gap-2 border-t border-white/10 pt-6 text-xs text-sand/40 sm:flex-row sm:items-center sm:justify-between">
           <p>© 2026 Future 3D Construction</p>
-          <p>Все права защищены</p>
+          <p>Усі права захищені</p>
         </div>
       </div>
     </footer>

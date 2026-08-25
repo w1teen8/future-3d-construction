@@ -2,16 +2,16 @@ import { useEffect, useState } from 'react'
 import { Menu, X } from 'lucide-react'
 
 const NAV_LINKS = [
-  { href: '#tech', label: 'Технологии' },
-  { href: '#benefits', label: 'Преимущества' },
-  { href: '#about', label: 'О компании' },
-  { href: '#contacts', label: 'Контакты' },
+  { href: '#tech', label: 'Технології' },
+  { href: '#benefits', label: 'Переваги' },
+  { href: '#about', label: 'Про компанію' },
+  { href: '#contacts', label: 'Контакти' },
 ]
 
 function Logo({ light = true }: { light?: boolean }) {
   const stroke = light ? '#F4F2EC' : '#121613'
   return (
-    <a href="#top" className="flex items-center gap-2.5 group" aria-label="Future 3D Construction — на главную">
+    <a href="#top" className="flex items-center gap-2.5 group" aria-label="Future 3D Construction — на головну">
       <svg width="34" height="34" viewBox="0 0 48 48" fill="none" className="shrink-0">
         <path d="M12 24L24 13L36 24" stroke={stroke} strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round" />
         <path d="M16 21V35H32V21" stroke={stroke} strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round" />
@@ -60,7 +60,7 @@ export default function Header() {
       <div className="mx-auto flex max-w-container items-center justify-between px-5 py-4 sm:px-8 lg:px-10">
         <Logo />
 
-        <nav className="hidden items-center gap-9 lg:flex" aria-label="Основная навигация">
+        <nav className="hidden items-center gap-9 lg:flex" aria-label="Основна навігація">
           {NAV_LINKS.map((link) => (
             <a
               key={link.href}
@@ -73,13 +73,13 @@ export default function Header() {
         </nav>
 
         <a href="#contacts" className="btn-dark hidden lg:inline-flex">
-          Связаться с нами
+          Зв'язатися з нами
         </a>
 
         <button
           type="button"
           className="inline-flex h-11 w-11 cursor-pointer items-center justify-center rounded-full text-sand transition-colors hover:bg-white/10 lg:hidden"
-          aria-label={open ? 'Закрыть меню' : 'Открыть меню'}
+          aria-label={open ? 'Закрити меню' : 'Відкрити меню'}
           aria-expanded={open}
           aria-controls="mobile-menu"
           onClick={() => setOpen((v) => !v)}
@@ -97,7 +97,7 @@ export default function Header() {
         <div className="min-h-0">
           <nav
             className="flex flex-col gap-1 border-t border-white/10 px-5 py-4 sm:px-8"
-            aria-label="Мобильная навигация"
+            aria-label="Мобільна навігація"
           >
             {NAV_LINKS.map((link) => (
               <a

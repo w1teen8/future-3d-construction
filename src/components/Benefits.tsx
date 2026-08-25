@@ -6,23 +6,23 @@ import { gsap, prefersReducedMotion } from '../lib/motion'
 const ITEMS = [
   {
     icon: Clock,
-    title: 'Быстрота',
-    description: 'Строим дома в 2–3 раза быстрее традиционных методов.',
+    title: 'Швидкість',
+    description: 'Будуємо будинки у 2–3 рази швидше за традиційні методи.',
   },
   {
     icon: Leaf,
-    title: 'Экологичность',
-    description: 'Используем безопасные материалы и сокращаем строительные отходы.',
+    title: 'Екологічність',
+    description: 'Використовуємо безпечні матеріали та скорочуємо будівельні відходи.',
   },
   {
     icon: PiggyBank,
-    title: 'Экономия',
-    description: 'Снижаем затраты на строительство до 30%.',
+    title: 'Економія',
+    description: 'Знижуємо витрати на будівництво до 30%.',
   },
   {
     icon: ShieldCheck,
-    title: 'Надёжность',
-    description: 'Дома прочные, долговечные и устойчивы к внешним факторам.',
+    title: 'Надійність',
+    description: 'Будинки міцні, довговічні та стійкі до зовнішніх факторів.',
   },
 ]
 
@@ -60,9 +60,9 @@ export default function Benefits() {
       <div className="mx-auto max-w-container px-5 sm:px-8 lg:px-10">
         <div className="benefit-heading grid gap-6 lg:grid-cols-2 lg:items-end lg:gap-10">
           <div>
-            <p className="eyebrow">Преимущества</p>
+            <p className="eyebrow">Переваги</p>
             <h2 className="mt-4 text-display-md font-heading font-extrabold text-ink-950">
-              Почему 3D-печать лучше традиционного строительства?
+              Чому 3D-друк кращий за традиційне будівництво?
             </h2>
           </div>
         </div>

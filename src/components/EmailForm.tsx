@@ -34,7 +34,7 @@ export default function EmailForm({ className = '' }: EmailFormProps) {
         className={`flex items-center gap-3 rounded-full border border-sage-400/40 bg-sage-400/10 px-5 py-3.5 text-sm font-medium text-sand ${className}`}
       >
         <CheckCircle2 className="h-5 w-5 shrink-0 text-sage-400" aria-hidden="true" />
-        Спасибо! Мы свяжемся с вами в числе первых.
+        Дякуємо! Ми зв'яжемося з вами в числі перших.
       </div>
     )
   }
@@ -47,7 +47,7 @@ export default function EmailForm({ className = '' }: EmailFormProps) {
         className="flex flex-col gap-3 sm:flex-row sm:items-stretch"
       >
         <label htmlFor={inputId} className="sr-only">
-          Email адрес
+          Електронна пошта
         </label>
         <input
           id={inputId}
@@ -71,7 +71,7 @@ export default function EmailForm({ className = '' }: EmailFormProps) {
           {status === 'loading' ? (
             <Loader2 className="h-4 w-4 animate-spin" aria-hidden="true" />
           ) : null}
-          Узнать первым
+          Дізнатися першим
         </button>
       </form>
       <p
@@ -82,11 +82,11 @@ export default function EmailForm({ className = '' }: EmailFormProps) {
         }`}
       >
         {status === 'error' ? (
-          'Проверьте, пожалуйста, адрес e-mail.'
+          'Перевірте, будь ласка, адресу e-mail.'
         ) : (
           <>
             <Lock className="h-3 w-3" aria-hidden="true" />
-            Мы не передаём ваши данные третьим лицам
+            Ми не передаємо ваші дані третім особам
           </>
         )}
       </p>
