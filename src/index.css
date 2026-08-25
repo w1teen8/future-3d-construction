@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-sand text-ink font-body antialiased;
+    font-feature-settings: 'ss01' on;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-heading;
+  }
+
+  ::selection {
+    @apply bg-sage-400 text-ink-950;
+  }
+
+  :focus-visible {
+    outline: 2px solid theme('colors.sage.400');
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+
+  section[id],
+  footer[id] {
+    scroll-margin-top: 84px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@layer components {
+  .eyebrow {
+    @apply text-xs font-semibold uppercase tracking-[0.2em] text-sage-500;
+  }
+
+  .btn-primary {
+    @apply inline-flex cursor-pointer items-center justify-center gap-2 rounded-full bg-sage-400 px-6 py-3.5
+      text-sm font-semibold text-ink-950 transition-all duration-300 ease-premium
+      hover:bg-sage-300 hover:-translate-y-0.5 hover:shadow-glow
+      active:translate-y-0 disabled:cursor-not-allowed disabled:opacity-60 disabled:pointer-events-none;
+  }
+
+  .btn-dark {
+    @apply inline-flex cursor-pointer items-center justify-center gap-2 rounded-full bg-ink-950 px-6 py-3
+      text-sm font-semibold text-sand transition-all duration-300 ease-premium
+      hover:bg-ink-800 hover:-translate-y-0.5;
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 ease-premium hover:-translate-y-1.5 hover:shadow-soft;
+  }
+}
